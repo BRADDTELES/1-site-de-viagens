@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../image/av3.jpg) center;
+}
+
+.wrapper{
+  width: 500px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper h1{
+  font-size: 46px;
+  text-shadow: #0019fadd 2px 2px;
+  text-align: center;
+  color: #fff;
+}
+
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #0019fadd;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #0019fadd;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #0019fadd;
+}
+
+.wrapper .remenber-forgot {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remenber-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remenber-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.remenber-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  border: nome;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+
+}
+
+nav {
+  background-color: #e3f2fd;
+}
+
+#cadastramento {
+  background-color: #f6f8eb;
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 15%;
+  transition: 0.5s;
+  background: url(../image/av3.jpg) center;
+  color: #000000;
+}
+
+#cadastramento .form-check-label {
+  color: #fff;
+}
+
+#cadastramento span {
+  color: #fff;
+}
+
+#cepGeral {
+  background-color: #f6f8eb;
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 15%;
+  transition: 0.5s;
+  background: url(../image/av3.jpg) center;
+}
+
+#cnpjGeral {
+  background-color: #f6f8eb;
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 15%;
+  transition: 0.5s;
+  background: url(../image/av3.jpg) center;
+}
+
+section {
+  background-color: #f6f8eb;
+  cursor: pointer;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 5%;
+  transition: 0.9s;
+  background: url(../image/av3.jpg) center;
+}
+
+#card-pequenos {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
