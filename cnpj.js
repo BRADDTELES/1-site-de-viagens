@@ -59,9 +59,10 @@ document
             //Populamos com o valor recebido no json
             fieldCell.textContent = key;
             valueCell.textContent = value;
+            row.appendChild(fieldCell);
+            row.appendChild(valueCell);
           }
-          row.appendChild(fieldCell);
-          row.appendChild(valueCell);
+          
           tbody.appendChild(row);
         });
       });
